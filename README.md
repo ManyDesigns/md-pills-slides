@@ -4,10 +4,10 @@ Progetto con template per le presentazioni di ManyDesigns Pills basato su [Revea
 
 Reveal.js supporta l'utilizzo di semplici file [Markdown](https://revealjs.com/markdown/) per generare le slide. 
 
-Qui un esempio dell'immediatezza dello strumento:
+Qui un esempio dell'immediatezza dello strumento: sono sufficienti ad esempio tre `\n` per separare le slide
+le une dalle altre, e al contempo sono supportati tag html
 ```markdown
 # SLIDE1
-
 Contenuto slide 
 - punto1
 - punto2
@@ -15,9 +15,22 @@ Contenuto slide
 
 
 # SLIDE 2
-Contenuto slide 2
+Contenuto slide 2<br>seconda riga
 <img src="example.png">
 ```
+
+Per inserire frammenti di codice e' sufficiente utilizzare i classici tre backtick \`\`\` specificando il linguaggio utilizzato 
+<pre>
+```java
+class MyClass {
+    //...
+} 
+```
+</pre>
+
+Per mostrare gli elementi 
+
+Se proprio necessario si possono creare interamente in html per realizzare layout più complessi
 
 ## Creare una nuova presentazione
 
