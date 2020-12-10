@@ -28,9 +28,16 @@ class MyClass {
 ```
 </pre>
 
-Per mostrare gli elementi 
+Per mostrare gli elementi progressivamente all'interno di una stessa slide si può utilizzare questa annotazione
 
-Se proprio necessario si possono creare interamente in html per realizzare layout più complessi
+```markdown
+# SLIDE
+Contenuto slide immediatamente visibile 
+- punto 1 (nascosto inizialmente) <!-- .element: class="fragment" -->
+- punto 2 (nascosto inizialmente) <!-- .element: class="fragment" -->
+```
+
+Se proprio necessario si possono creare slide interamente in html per realizzare layout più complessi
 
 ## Creare una nuova presentazione
 
