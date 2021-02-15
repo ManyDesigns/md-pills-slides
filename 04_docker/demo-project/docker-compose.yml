@@ -1,0 +1,28 @@
+version: '3.5'
+
+services:
+  backend:
+    image: manydesigns/demo:1.0
+    ports: 
+      - 8081:8080
+    environment:
+      DB_USERNAME: "demo"
+      DB_PASSWORD: "secret"
+    volumes:
+      - blobs:/opt/blobs
+
+  database:
+    image: postgres:12.2-alpine
+    volumes:
+      - db_data:/data/postgres
+    environment:
+      POSTGRES_DB: "demo"
+      POSTGRES_USER: "demo"
+      POSTGRES_PASSWORD: "secret"
+      PGDATA: /data/postgres
+      TZ: 'Europe/Rome'
+
+
+volumes:
+  blobs:
+  db_data:
