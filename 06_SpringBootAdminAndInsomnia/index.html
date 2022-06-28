@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>ManyDesigns Pills #06 - Spring boot admin server & insomnia </title>
+
+    <link rel="stylesheet" href="../reveal.js/dist/reset.css">
+    <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="../reveal.js/dist/theme/sky.css" id="theme">
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="../reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+
+    <link rel="stylesheet" href="../custom-headers.css">
+</head>
+<body>
+
+<div id="hidden" style="display:none;">
+	<div id="header">
+		<div id="footer-left" style="display: flex; align-items: center;">
+            <img src="../logo-md-dots.png" height="20" style="margin-left: 12px; margin-right:12px">
+            <div> ManyDesigns Pills #06 - Spring Boot Admin Server & Insomnia (28 June 2022)</div>
+        </div>
+	</div>
+</div>
+
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <p>ManyDesigns Pills #06</p>
+
+            <h3>Spring Boot Admin Server <br/>&<br/> Insomnia</h3>
+
+
+            <small>Emre Demircan - emre.demircan@manydesigns.com</small>
+            <a href="http://www.manydesigns.com">www.manydesigns.com</a>
+
+            <aside class="notes">
+
+
+                gRPC (gRPC Remote Procedure Calls) is a modern open source high performance Remote Procedure Call (RPC) framework that can run in any environment.
+            </aside>
+        </section>
+        <section data-markdown="00-intro.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:" data-charset="utf-8"></section>
+        <section style="font-size: 16px" data-markdown="01-spring-boot-admin.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:" data-charset="utf-8"></section>
+        <section class="spring-boot-admin-configure" data-markdown="01_1-spring-boot-admin-configure.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:" data-charset="utf-8"></section>
+        <section class="insomnia" data-markdown="02-insomnia.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:" data-charset="utf-8"></section>
+        <section class="insomnia-configure" data-markdown="02_1-insomnia-configure.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:" data-charset="utf-8"></section>
+        <section class="end-section" data-markdown="03_end.md" data-separator="^\n\n\n" data-vertical="^\n\n" data-notes="^Note:" data-charset="utf-8"></section>
+    </div>
+</div>
+
+<script src="../reveal.js/dist/reveal.js"></script>
+<script src="../reveal.js/plugin/notes/notes.js"></script>
+<script src="../reveal.js/plugin/markdown/markdown.js"></script>
+<script src="../reveal.js/plugin/highlight/highlight.js"></script>
+<script>
+	Reveal.initialize({
+		hash: true,
+
+		// Learn about plugins: https://revealjs.com/plugins/
+		plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+	});
+</script>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="../custom-headers.js"></script>
+</body>
+</html>

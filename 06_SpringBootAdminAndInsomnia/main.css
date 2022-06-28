@@ -1,0 +1,80 @@
+.slide {
+    background-color: #FEE4C4;
+}
+.spring-boot-admin-configure, .insomnia, .insomnia-configure {
+    font-size: 17px;
+}
+
+details {
+    text-align: left;
+    margin-left: 100px;
+}
+
+details[open] > summary {
+    color: brown;
+}
+
+details > p, details > ul {
+    font-size: 14px;
+}
+
+.spring-boot-admin-configure {
+    top:0!important;
+}
+
+.insomnia-configure {
+    top:100px!important;
+}
+
+.end-section {
+    top:100px !important;
+}
+
+#given, #when, #then, #then-enjoy-phase {
+    color: brown;
+}
+
+.insomnia-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.insomnia-logo > img {
+    height: 65px;
+}
+
+.insomnia-logo > .logo-text {
+    margin: auto 15px;
+    color: #6000D4;
+    font-size: 24px
+}
+
+.code-wrapper {
+    font-size: 10px!important;
+}
+
+.section-details {
+    overflow-y: auto;
+    max-height: 50vh;
+}
+
+.reveal .progress {
+    height: 6px!important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px!important;
+    background: rgba(255, 246, 235, 0.45) !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #272822 !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: orange!important;
+}
