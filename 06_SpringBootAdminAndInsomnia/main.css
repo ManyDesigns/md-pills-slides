@@ -56,7 +56,7 @@ details > p, details > ul {
 
 .section-details {
     overflow-y: auto;
-    max-height: 50vh;
+    max-height: 45vh;
 }
 
 .reveal .progress {
