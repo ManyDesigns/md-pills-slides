@@ -8,7 +8,7 @@
     <packaging>war</packaging>
     <version>1.0</version>
     <properties>
-        <portofino.version>5.1.4</portofino.version>
+        <portofino.version>5.3.3</portofino.version>
         <spring.boot.version>2.3.0.RELEASE</spring.boot.version>
         <!--suppress UnresolvedMavenProperty -->
         <portofino.application.directory>${serverInfo:realPath}/WEB-INF</portofino.application.directory>
